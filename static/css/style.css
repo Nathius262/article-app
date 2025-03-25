@@ -2,6 +2,7 @@
     --white: #fff;
     --black: #000;
     --orange: orange;
+    --grey:rgb(210, 208, 208);
     --magine-default-size: 100px;
 }
 
@@ -55,6 +56,50 @@ a:hover{
 }
 
 /*HEADER SECTION*/
+
+/*MAIN INTRO SECTION*/
+.intro-body {
+    position: relative;
+}
+
+.intro-content{
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 50%;
+    color: var(--white);
+}
+
+.intro-content h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.intro-content p{
+    margin-bottom: 10px;
+}
+
+.intro-content a{
+    margin-bottom: 10px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    background-color: var(--white);
+    padding: 5px 3px;
+    color: var(--orange);
+}
+
+.intro-content a:hover{
+    background-color: var(--grey);
+    transition: background-color .4s ease-in-out;
+}
+
+.intro-img img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
