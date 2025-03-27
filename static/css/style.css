@@ -41,6 +41,10 @@ a:hover{
 .d-grid{
     display: grid;
 }
+.d-inline-grid{
+    display: -ms-inline-grid;
+    align-items: center !important;
+}
 .justify-content-between{
     justify-content: space-between;
 }
@@ -116,7 +120,7 @@ a:hover{
     height: 200px;
 }
 
-.card-img img{
+.card-img img, .des-img img{
     object-fit: cover;
     object-position: center;
     width: 100%;
