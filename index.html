@@ -10,16 +10,24 @@
 
         <!--STYLE SECTION-->
         <link rel="stylesheet" href="static/css/style.css">
+        <style>
+
+        </style>
     </head>
     <body>
 
         <!--HEADER SECTION-->
         <header>
             <nav class="row align-items-center d-md-flex">
-                <div class="col-md-2">
+                <div class="col-md-2 d-flex justify-content-between align-items-center">
                     <h2>Article App</h2>
+                    <button id="navbar-btn" class="btn d-none d-md-block" type="menu"><i class="fa-solid fa-bars"></i></button>
                 </div>
-                <div class="col-md-8 d-md-flex justify-content-center">
+
+
+                
+
+                <div class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items">
                     <ul class="col-md-6 d-md-flex justify-content-evenly">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Archive</a></li>
@@ -28,7 +36,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <ul class="col-md-2 d-flex justify-content-between">
+                <ul class="col-md-2 d-flex justify-content-between d-md-none navbar-items">
                     <li><a href="#">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a></li>

@@ -151,6 +151,9 @@ a:hover{
     margin-top: 20px;
 }
 
+.d-none{
+    display: none;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -164,6 +167,17 @@ a:hover{
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px){
+    .d-md-block{
+        display: block;
+    }
+
+    .d-md-none{
+        display: none;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
     .col-md-1{
         width: 8.33%;
@@ -205,10 +219,14 @@ a:hover{
     .d-md-flex{
         display: flex;
     }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    
+
     .col-lg-1{
         width: 8.33%;
     }
