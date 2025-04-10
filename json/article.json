@@ -1,0 +1,71 @@
+[
+{
+    "id":1,
+    "title": "Understanding The Concept of JSON data.",
+    "descirption":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a1.jpg",
+    "ulr": "/article/1",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":10,
+    "title": "Answering The Concept of JSON data.",
+    "descirption":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/10",
+    "date": "Mon Apr 11 2025"
+},
+{
+    "id":2,
+    "title": "This is title 2",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a2.jpg",
+    "ulr": "/article/2",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/3",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/3",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/3",
+    "date": "Thu Apr 10 2025"
+},
+
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/3",
+    "date": "Thu Apr 10 2025"
+},
+{
+    "id":3,
+    "title": "This is title 3",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
+    "image_url": "static/img/a3.jpg",
+    "ulr": "/article/3",
+    "date": "Thu Apr 10 2025"
+}
+]
