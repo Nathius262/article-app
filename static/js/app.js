@@ -20,7 +20,8 @@ fetch("/json/article.json")
     })
     .then((data)=>{
         let articleEl = document.getElementById('article-list')
-        for(let article of data){
+        for(let i=0; i<9; i++){
+            let article = data[i];
             articleEl.insertAdjacentHTML('afterbegin', `
                 <div class="col-md-4">
                     <div class="card">
@@ -29,7 +30,7 @@ fetch("/json/article.json")
                         </div>
 
                         <div class="card-content">
-                            <a href=${article.ulr} class="btn card-btn">
+                            <a href=${article.absolute_url} class="btn card-btn">
                                 View Article
                             </a>
 

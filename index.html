@@ -1,106 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Article App</title>
 
-        <!--FONTAWSOME-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article App</title>
 
-        <!--STYLE SECTION-->
-        <link rel="stylesheet" href="static/css/style.css">
-        <style>
+    <!--FONTAWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        </style>
-    </head>
-    <body>
+    <!--STYLE SECTION-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
 
-        <!--HEADER SECTION-->
-        <header>
-            <nav class="row align-items-center d-md-flex">
-                <div class="col-md-2 d-flex justify-content-between align-items-center">
-                    <h2>Article App</h2>
-                    <button id="navbar-btn" class="btn d-none d-md-block" type="menu"><i class="fa-solid fa-bars"></i></button>
-                </div>
+    </style>
+</head>
+
+<body>
+
+    <!--HEADER SECTION-->
+    <header>
+        <nav class="row align-items-center d-md-flex">
+            <div class="col-md-2 d-flex justify-content-between align-items-center">
+                <h2>Article App</h2>
+                <button id="navbar-btn" class="btn d-none d-md-block" type="menu"><i
+                        class="fa-solid fa-bars"></i></button>
+            </div>
 
 
-                
 
-                <div class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items">
-                    <ul class="col-md-6 d-md-flex justify-content-evenly">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Archive</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <ul class="col-md-2 d-flex justify-content-between d-md-none navbar-items">
-                    <li><a href="#">
+
+            <div class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items">
+                <ul class="col-md-6 d-md-flex justify-content-evenly">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="col-md-2 d-flex justify-content-between d-md-none navbar-items">
+                <li><a href="#">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a></li>
-                    <li><a href="#"></a>
-                        <i class="fa-brands fa-twitter"></i>
-                    </li>
-                    <li><a href="#"></a>
-                        <i class="fa-brands fa-instagram"></i>
-                    </li>
-                    <li><a href="#"></a>
-                        <i class="fa-brands fa-skype"></i>
-                    </li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-skype"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--HEADER SECTION END-->
+
+    <!--MAIN SECTION-->
+    <main>
+
+        <section class="intro row">
+            <div class="container intro-body col">
+                <div class="intro-img">
+                    <img src="static/img/a3.jpg" alt="intro heading">
+                </div>
+
+                <div class="intro-content">
+                    <h1>Amazing Places on Earth</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quas dolores et harum inventore sit
+                        laudantium ex tempora beatae unde voluptas eaque asperiores laboriosam veniam amet obcaecati
+                        neque perspiciatis. Atque?</p>
+                    <a href="#">Explore More</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row" id="article-list">
+            </div>
+        </section>
+
+        <section>
+            <div class="row d-md-flex align-items-center">
+                <div class="col-md-8 des-img">
+                    <img src="static/img/a2.jpg" alt="">
+                </div>
+
+                <div class="col-md-4">
+                    <h2>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In inventore veritatis cupiditate quod
+                        esse eveniet modi? Neque nemo omnis modi asperiores explicabo atque quae dolor, natus tempora ea
+                        nam harum!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--MAIN SECTION END-->
+
+    <!--FOOTER SECTION-->
+    <footer class="row">
+        <hr>
+        <section class="col row">
+            <div class="col-md-3">
+                <h2>Article</h2>
+            </div>
+
+            <div class="col-md-6 row">
+                <div class="col-md-6">
+                    <h3>Resource</h3>
+                    <ul>
+                        <li><a href="#">Vercel</a></li>
+                        <li><a href="#">Pythonanywhere</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Cloudinary</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Author</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h3>Connect with us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
                 </ul>
-            </nav>
-        </header>
-        <!--HEADER SECTION END-->
+            </div>
+        </section>
 
-        <!--MAIN SECTION-->
-        <main>
+        <section class="col">Copyright © 2025 ARTICLE</section>
+    </footer>
+    <!--FOOTER SECTION END-->
 
-            <section class="intro row">
-               <div class="container intro-body col">
-                    <div class="intro-img">
-                        <img src="static/img/a3.jpg" alt="intro heading">
-                    </div>
+    <!--JAVASCRIPT SECTION-->
+    <script src="static/js/app.js"></script>
+</body>
 
-                    <div class="intro-content">
-                        <h1>Amazing Places on Earth</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quas dolores et harum inventore sit laudantium ex tempora beatae unde voluptas eaque asperiores laboriosam veniam amet obcaecati neque perspiciatis. Atque?</p>
-                        <a href="#">Explore More</a>
-                    </div>
-               </div>
-            </section>
-
-            <section>
-                <div class="row" id="article-list">                
-                </div>
-            </section>
-
-            <section>
-                <div class="row d-md-flex align-items-center">
-                    <div class="col-md-8 des-img">
-                        <img src="static/img/a2.jpg" alt="">
-                    </div>
-
-                    <div class="col-md-4">
-                        <h2>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In inventore veritatis cupiditate quod esse eveniet modi? Neque nemo omnis modi asperiores explicabo atque quae dolor, natus tempora ea nam harum!
-                        </p>
-                    </div>
-                </div>
-            </section>
-            
-        </main>
-        <!--MAIN SECTION END-->
-
-        <!--FOOTER SECTION-->
-        <footer></footer>
-        <!--FOOTER SECTION END-->
-
-        <!--JAVASCRIPT SECTION-->
-        <script src="static/js/app.js"></script>
-    </body>
 </html>
