@@ -1,71 +1,402 @@
 [
-{
-    "id":1,
-    "title": "Understanding The Concept of JSON data.",
-    "descirption":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a1.jpg",
-    "ulr": "/article/1",
-    "date": "Thu Apr 10 2025"
-},
-
-{
-    "id":10,
-    "title": "Answering The Concept of JSON data.",
-    "descirption":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/10",
-    "date": "Mon Apr 11 2025"
-},
-{
-    "id":2,
-    "title": "This is title 2",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a2.jpg",
-    "ulr": "/article/2",
-    "date": "Thu Apr 10 2025"
-},
-
-{
-    "id":3,
-    "title": "This is title 3",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/3",
-    "date": "Thu Apr 10 2025"
-},
-
-{
-    "id":3,
-    "title": "This is title 3",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/3",
-    "date": "Thu Apr 10 2025"
-},
-
-{
-    "id":3,
-    "title": "This is title 3",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/3",
-    "date": "Thu Apr 10 2025"
-},
-
-{
-    "id":3,
-    "title": "This is title 3",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/3",
-    "date": "Thu Apr 10 2025"
-},
-{
-    "id":3,
-    "title": "This is title 3",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur molestiae natus dolorem architecto, fugit, inventore quia iure fugiat esse, voluptas laudantium error eaque? Reiciendis alias omnis ipsa pariatur explicabo.",
-    "image_url": "static/img/a3.jpg",
-    "ulr": "/article/3",
-    "date": "Thu Apr 10 2025"
-}
+  {
+    "id": 1,
+    "title": "The Future of Renewable Energy",
+    "description": "Exploring how solar and wind power are transforming global energy markets.",
+    "image_url": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d",
+    "absolute_url": "/articles/future-renewable-energy",
+    "date": "2023-05-15"
+  },
+  {
+    "id": 2,
+    "title": "10 Tips for Better Sleep",
+    "description": "Science-backed methods to improve your sleep quality and duration.",
+    "image_url": "https://images.unsplash.com/photo-1548613053-ff5fa5c8d9a9",
+    "absolute_url": "/articles/better-sleep-tips",
+    "date": "2023-05-18"
+  },
+  {
+    "id": 3,
+    "title": "Urban Gardening for Beginners",
+    "description": "How to start your own garden even in small city spaces.",
+    "image_url": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735",
+    "absolute_url": "/articles/urban-gardening-beginners",
+    "date": "2023-05-20"
+  },
+  {
+    "id": 4,
+    "title": "The Rise of AI in Healthcare",
+    "description": "How artificial intelligence is revolutionizing diagnosis and treatment.",
+    "image_url": "https://images.unsplash.com/photo-1579165466740-504a5a3d0a1e",
+    "absolute_url": "/articles/ai-healthcare-rise",
+    "date": "2023-05-22"
+  },
+  {
+    "id": 5,
+    "title": "Sustainable Travel Destinations",
+    "description": "Eco-friendly places to visit for your next vacation.",
+    "image_url": "https://images.unsplash.com/photo-1506929562872-bb421503ef21",
+    "absolute_url": "/articles/sustainable-travel-destinations",
+    "date": "2023-05-25"
+  },
+  {
+    "id": 6,
+    "title": "Home Workout Routines",
+    "description": "Effective exercises you can do without gym equipment.",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
+    "absolute_url": "/articles/home-workout-routines",
+    "date": "2023-05-28"
+  },
+  {
+    "id": 7,
+    "title": "Blockchain Technology Explained",
+    "description": "Understanding the fundamentals of blockchain beyond cryptocurrency.",
+    "image_url": "https://images.unsplash.com/photo-1639762681057-408e52192e55",
+    "absolute_url": "/articles/blockchain-explained",
+    "date": "2023-05-30"
+  },
+  {
+    "id": 8,
+    "title": "Mindfulness Meditation Guide",
+    "description": "Step-by-step instructions for beginners to start meditating.",
+    "image_url": "https://images.unsplash.com/photo-1533362936862-6b81f4772563",
+    "absolute_url": "/articles/mindfulness-meditation-guide",
+    "date": "2023-06-02"
+  },
+  {
+    "id": 9,
+    "title": "The Art of Sourdough Bread",
+    "description": "Traditional techniques for perfect homemade sourdough.",
+    "image_url": "https://images.unsplash.com/photo-1546549032-9571cd6b27df",
+    "absolute_url": "/articles/sourdough-bread-art",
+    "date": "2023-06-05"
+  },
+  {
+    "id": 10,
+    "title": "Cybersecurity Best Practices",
+    "description": "Essential tips to protect your digital life from threats.",
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    "absolute_url": "/articles/cybersecurity-best-practices",
+    "date": "2023-06-08"
+  },
+  {
+    "id": 11,
+    "title": "Minimalist Living: A Beginner's Guide",
+    "description": "How to declutter your life and focus on what matters.",
+    "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+    "absolute_url": "/articles/minimalist-living-guide",
+    "date": "2023-06-10"
+  },
+  {
+    "id": 12,
+    "title": "The Science of Happiness",
+    "description": "Research-backed ways to increase your daily joy.",
+    "image_url": "https://images.unsplash.com/photo-1543269865-cbf427effbad",
+    "absolute_url": "/articles/science-of-happiness",
+    "date": "2023-06-12"
+  },
+  {
+    "id": 13,
+    "title": "DIY Home Improvement Projects",
+    "description": "Easy upgrades you can do yourself this weekend.",
+    "image_url": "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+    "absolute_url": "/articles/diy-home-improvement",
+    "date": "2023-06-15"
+  },
+  {
+    "id": 14,
+    "title": "The Future of Remote Work",
+    "description": "How workplaces are adapting to hybrid models.",
+    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "absolute_url": "/articles/future-remote-work",
+    "date": "2023-06-18"
+  },
+  {
+    "id": 15,
+    "title": "Healthy Meal Prep Ideas",
+    "description": "Nutritious recipes for your weekly meal preparation.",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+    "absolute_url": "/articles/healthy-meal-prep",
+    "date": "2023-06-20"
+  },
+  {
+    "id": 16,
+    "title": "Understanding Cryptocurrency",
+    "description": "A beginner's guide to digital currencies and how they work.",
+    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040",
+    "absolute_url": "/articles/understanding-cryptocurrency",
+    "date": "2023-06-22"
+  },
+  {
+    "id": 17,
+    "title": "Nature Photography Tips",
+    "description": "Techniques for capturing stunning outdoor images.",
+    "image_url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e",
+    "absolute_url": "/articles/nature-photography-tips",
+    "date": "2023-06-25"
+  },
+  {
+    "id": 18,
+    "title": "The Benefits of Yoga",
+    "description": "How regular practice can improve physical and mental health.",
+    "image_url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597",
+    "absolute_url": "/articles/benefits-of-yoga",
+    "date": "2023-06-28"
+  },
+  {
+    "id": 19,
+    "title": "Sustainable Fashion Choices",
+    "description": "How to build an eco-friendly wardrobe.",
+    "image_url": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f",
+    "absolute_url": "/articles/sustainable-fashion",
+    "date": "2023-07-01"
+  },
+  {
+    "id": 20,
+    "title": "Personal Finance Basics",
+    "description": "Essential money management skills everyone should know.",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "absolute_url": "/articles/personal-finance-basics",
+    "date": "2023-07-03"
+  },
+  {
+    "id": 21,
+    "title": "The History of Space Exploration",
+    "description": "Key milestones in humanity's journey beyond Earth.",
+    "image_url": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031",
+    "absolute_url": "/articles/space-exploration-history",
+    "date": "2023-07-05"
+  },
+  {
+    "id": 22,
+    "title": "Coffee Brewing Methods Compared",
+    "description": "Which brewing technique produces the best flavor?",
+    "image_url": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5",
+    "absolute_url": "/articles/coffee-brewing-methods",
+    "date": "2023-07-08"
+  },
+  {
+    "id": 23,
+    "title": "Digital Detox: Benefits and Tips",
+    "description": "Why and how to take breaks from technology.",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    "absolute_url": "/articles/digital-detox-guide",
+    "date": "2023-07-10"
+  },
+  {
+    "id": 24,
+    "title": "Urban Wildlife Photography",
+    "description": "Capturing nature in the city environment.",
+    "image_url": "https://images.unsplash.com/photo-1497752531616-c3afd9760b11",
+    "absolute_url": "/articles/urban-wildlife-photography",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 25,
+    "title": "The Psychology of Color",
+    "description": "How colors affect our mood and behavior.",
+    "image_url": "https://images.unsplash.com/photo-1493612276216-ee3925520721",
+    "absolute_url": "/articles/psychology-of-color",
+    "date": "2023-07-15"
+  },
+  {
+    "id": 26,
+    "title": "Zero Waste Kitchen Tips",
+    "description": "Reducing food waste and packaging in your cooking.",
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff",
+    "absolute_url": "/articles/zero-waste-kitchen",
+    "date": "2023-07-18"
+  },
+  {
+    "id": 27,
+    "title": "The Evolution of Smartphones",
+    "description": "From brick phones to foldable screens.",
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "absolute_url": "/articles/smartphone-evolution",
+    "date": "2023-07-20"
+  },
+  {
+    "id": 28,
+    "title": "Hiking Essentials for Beginners",
+    "description": "What to pack for your first hiking adventure.",
+    "image_url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4",
+    "absolute_url": "/articles/hiking-essentials",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 29,
+    "title": "The Art of Public Speaking",
+    "description": "Techniques to overcome fear and deliver great presentations.",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
+    "absolute_url": "/articles/public-speaking-art",
+    "date": "2023-07-25"
+  },
+  {
+    "id": 30,
+    "title": "Fermented Foods and Gut Health",
+    "description": "How probiotics can improve your digestion.",
+    "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+    "absolute_url": "/articles/fermented-foods-health",
+    "date": "2023-07-28"
+  },
+  {
+    "id": 31,
+    "title": "Virtual Reality in Education",
+    "description": "How VR is transforming learning experiences.",
+    "image_url": "https://images.unsplash.com/photo-1589254065878-42c9da997008",
+    "absolute_url": "/articles/vr-in-education",
+    "date": "2023-07-30"
+  },
+  {
+    "id": 32,
+    "title": "Bicycle Maintenance 101",
+    "description": "Basic care to keep your bike running smoothly.",
+    "image_url": "https://images.unsplash.com/photo-1485965120184-e220f721d03e",
+    "absolute_url": "/articles/bicycle-maintenance",
+    "date": "2023-08-02"
+  },
+  {
+    "id": 33,
+    "title": "The Science of Sleep",
+    "description": "Understanding sleep cycles and their importance.",
+    "image_url": "https://images.unsplash.com/photo-1531353826977-0941b4779a1c",
+    "absolute_url": "/articles/science-of-sleep",
+    "date": "2023-08-05"
+  },
+  {
+    "id": 34,
+    "title": "Home Composting Made Easy",
+    "description": "Turn your kitchen scraps into nutrient-rich soil.",
+    "image_url": "https://images.unsplash.com/photo-1589927986086-eb6e8b7c24e0",
+    "absolute_url": "/articles/home-composting",
+    "date": "2023-08-08"
+  },
+  {
+    "id": 35,
+    "title": "The History of Jazz Music",
+    "description": "From New Orleans to global influence.",
+    "image_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    "absolute_url": "/articles/history-of-jazz",
+    "date": "2023-08-10"
+  },
+  {
+    "id": 36,
+    "title": "Mind Mapping Techniques",
+    "description": "Visual tools to boost your creativity and productivity.",
+    "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
+    "absolute_url": "/articles/mind-mapping-techniques",
+    "date": "2023-08-12"
+  },
+  {
+    "id": 37,
+    "title": "Sustainable Architecture Trends",
+    "description": "How buildings are going green worldwide.",
+    "image_url": "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
+    "absolute_url": "/articles/sustainable-architecture",
+    "date": "2023-08-15"
+  },
+  {
+    "id": 38,
+    "title": "The Benefits of Cold Showers",
+    "description": "Why you might want to turn down the temperature.",
+    "image_url": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    "absolute_url": "/articles/cold-shower-benefits",
+    "date": "2023-08-18"
+  },
+  {
+    "id": 39,
+    "title": "Introduction to Astrophotography",
+    "description": "Capturing stunning images of the night sky.",
+    "image_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+    "absolute_url": "/articles/astrophotography-intro",
+    "date": "2023-08-20"
+  },
+  {
+    "id": 40,
+    "title": "Plant-Based Diet Benefits",
+    "description": "Health and environmental advantages of eating more plants.",
+    "image_url": "https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f",
+    "absolute_url": "/articles/plant-based-diet",
+    "date": "2023-08-22"
+  },
+  {
+    "id": 41,
+    "title": "The Future of Electric Vehicles",
+    "description": "How EV technology is evolving and improving.",
+    "image_url": "https://images.unsplash.com/photo-1555215695-3004980ad54e",
+    "absolute_url": "/articles/future-electric-vehicles",
+    "date": "2023-08-25"
+  },
+  {
+    "id": 42,
+    "title": "Time Management Strategies",
+    "description": "Proven methods to make the most of your day.",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+    "absolute_url": "/articles/time-management",
+    "date": "2023-08-28"
+  },
+  {
+    "id": 43,
+    "title": "The Art of Japanese Tea Ceremony",
+    "description": "Understanding this ancient cultural practice.",
+    "image_url": "https://images.unsplash.com/photo-1568219656418-15c329312bf1",
+    "absolute_url": "/articles/japanese-tea-ceremony",
+    "date": "2023-08-30"
+  },
+  {
+    "id": 44,
+    "title": "DIY Natural Cleaning Products",
+    "description": "Safe, effective cleaners you can make at home.",
+    "image_url": "https://images.unsplash.com/photo-1583947581924-a6d4a7e6ee1a",
+    "absolute_url": "/articles/natural-cleaning-products",
+    "date": "2023-09-02"
+  },
+  {
+    "id": 45,
+    "title": "The Neuroscience of Learning",
+    "description": "How our brains acquire and retain new information.",
+    "image_url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d",
+    "absolute_url": "/articles/neuroscience-learning",
+    "date": "2023-09-05"
+  },
+  {
+    "id": 46,
+    "title": "Winter Gardening Tips",
+    "description": "How to keep your garden thriving in cold months.",
+    "image_url": "https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6",
+    "absolute_url": "/articles/winter-gardening",
+    "date": "2023-09-08"
+  },
+  {
+    "id": 47,
+    "title": "The History of Typography",
+    "description": "From Gutenberg to digital fonts.",
+    "image_url": "https://images.unsplash.com/photo-1531973576160-7125cd663d86",
+    "absolute_url": "/articles/typography-history",
+    "date": "2023-09-10"
+  },
+  {
+    "id": 48,
+    "title": "Benefits of Journaling",
+    "description": "How writing daily can improve your mental health.",
+    "image_url": "https://images.unsplash.com/photo-1517842645767-c639042777db",
+    "absolute_url": "/articles/journaling-benefits",
+    "date": "2023-09-12"
+  },
+  {
+    "id": 49,
+    "title": "Introduction to Foraging",
+    "description": "Safely identifying and harvesting wild foods.",
+    "image_url": "https://images.unsplash.com/photo-1470114716159-e389f8712fda",
+    "absolute_url": "/articles/foraging-introduction",
+    "date": "2023-09-15"
+  },
+  {
+    "id": 50,
+    "title": "The Psychology of Habits",
+    "description": "How habits form and how to change them.",
+    "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    "absolute_url": "/articles/psychology-of-habits",
+    "date": "2023-09-18"
+  }
 ]
