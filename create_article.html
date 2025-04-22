@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article App</title>
+
+    <!--FONTAWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--STYLE SECTION-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!--HEADER SECTION-->
+    <header>
+        <nav class="row align-items-center d-md-flex">
+            <div class="col-md-2 d-flex justify-content-between align-items-center">
+                <h2>Article App</h2>
+                <button id="navbar-btn" class="btn d-none d-md-block" type="menu"><i
+                        class="fa-solid fa-bars"></i></button>
+            </div>
+
+
+
+
+            <div class="col-md-8 d-md-flex justify-content-center d-md-none navbar-items">
+                <ul class="col-md-6 d-md-flex justify-content-evenly">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <ul class="col-md-2 d-flex justify-content-between d-md-none navbar-items">
+                <li><a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a></li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li><a href="#"></a>
+                    <i class="fa-brands fa-skype"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--HEADER SECTION END-->
+
+    <!--MAIN SECTION-->
+    <main>
+
+        <section class="row">
+
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="article-heading"><h2>Create Article</h2></div>
+            </div>            
+
+        </section>
+
+        <section class="row">
+            <form action="" method="post" class="d-grid justify-content-center align-items-center">
+
+                <!--TITLE FIELD-->
+                <div class="form-group">
+                    <label for="">Title</label>
+                    <input class="form-control" type="text" name="title" id="">
+                </div>
+
+                <!--DESCRIPTION FIELD-->
+                <div class="form-group">
+                    <label for="">Description</label>
+                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <!--IMAGE FIELD-->
+                <div class="form-group">
+                    <label for="">Image</label>
+                    <input class="form-control" type="file" name="image_url" accept="image/*" id="">
+                </div>
+
+                <!--DATE FIELD-->
+                <div class="form-group">
+                    <label for="">Date</label>
+                    <input class="form-control" type="date" name="date" id="">
+                </div>
+
+                <!--SUBMIT BTN-->
+                <div class="row">
+                    <button class="btn btn-warning col" type="submit">Create Post</button>
+                </div>
+            </form>
+        </section>
+
+
+
+    </main>
+    <!--MAIN SECTION END-->
+
+    <!--FOOTER SECTION-->
+    <footer class="row">
+        <hr>
+        <section class="col row">
+            <div class="col-md-3">
+                <h2>Article</h2>
+            </div>
+
+            <div class="col-md-6 row">
+                <div class="col-md-6">
+                    <h3>Resource</h3>
+                    <ul>
+                        <li><a href="#">Vercel</a></li>
+                        <li><a href="#">Pythonanywhere</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Cloudinary</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Author</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h3>Connect with us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="col">Copyright © 2025 ARTICLE</section>
+    </footer>
+    <!--FOOTER SECTION END-->
+
+    <!--JAVASCRIPT SECTION-->
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>

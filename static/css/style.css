@@ -142,7 +142,7 @@ a:hover{
     color: var(--orange);
     padding: 6px 15px;
 }
-.card-btn:hover, .create-article-btn:hover{
+.card-btn:hover, .create-article-btn:hover, .btn-warning:hover{
     background-color: var(--grey);
     transition: background-color .4s ease-in-out;
 }
@@ -172,6 +172,32 @@ a:hover{
 .create-article-btn a{
     color: inherit;
 }
+
+.form-group{
+    display: grid;
+    margin: 10px 5px;
+}
+
+.form-group label{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.form-control{
+    font-size: large;
+    padding: 10px;
+    border: 2px solid var(--grey);
+    border-radius: 10px;
+}
+
+.btn-warning{
+    background-color: var(--black);
+    color: var(--orange);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
