@@ -53,3 +53,19 @@ fetch("/json/article.json")
     .catch((error)=>{
         console.log(error)
     })
+
+
+//CREATE NEW ARTICLE
+let form_data = document.getElementById('create-article-form');
+
+form_data.addEventListener('submit', (event)=> {
+    event.preventDefault(); //prevent default form submission
+
+    console.log('creating new article');
+
+    let converted_form = new FormData(form_data) //converting html form to javascript form
+
+    converted_form = Object.fromEntries(converted_form) //converts javascript form to JS objects
+
+    
+})
