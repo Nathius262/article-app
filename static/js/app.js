@@ -55,7 +55,7 @@ fetch("/json/article.json")
     })
 
 
-//CREATE NEW ARTICLE
+/*CREATE NEW ARTICLE
 let form_data = document.getElementById('create-article-form');
 
 form_data.addEventListener('submit', (event)=> {
@@ -68,4 +68,4 @@ form_data.addEventListener('submit', (event)=> {
     converted_form = Object.fromEntries(converted_form) //converts javascript form to JS objects
 
     
-})
+})*/

@@ -1,0 +1,14 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "You've been assigned as a developer to design a simple blog app that has the ability to perfom CRUD operation.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
